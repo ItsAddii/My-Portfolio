@@ -34,3 +34,17 @@
   z-index: 1;           
   position: relative;
 }
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 15px #001f3f, 0 0 20px #001f3f, 0 0 30px #001f3f;
+  }
+  50% {
+    text-shadow: 0 0 20px #001f3f, 0 0 30px #001f3f, 0 0 40px #001f3f;
+  }
+}
+
+.heroText h1, .heroText h2 {
+  animation: glow 2s infinite alternate;
+}
+
