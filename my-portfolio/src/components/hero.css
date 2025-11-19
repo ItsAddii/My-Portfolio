@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Quicksand:wght@300..700&display=swap');
+
+.heroSection {
+  background-image: url("/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 50px;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-left: 450px;
+    padding-bottom: 400px;
+}
+
+.heroText h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.heroText h2 {
+  font-size: 2rem;
+  z-index: 1;           
+  position: relative;
+}
